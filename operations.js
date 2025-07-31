@@ -27,3 +27,10 @@ console.log(str3);
 
 console.log("1" + 2 + 2); // gives 122
 console.log(1 + 2 + "2"); // gives 32
+
+
+let gameCounter = 100;
+gameCounter--;
+
+
+console.log(gameCounter);
