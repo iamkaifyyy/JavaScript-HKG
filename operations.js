@@ -34,3 +34,5 @@ gameCounter--;
 
 
 console.log(gameCounter);
+
+
