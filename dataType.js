@@ -24,3 +24,11 @@ console.log(typeof stringNumber);
 
 */
 
+// primitive data types
+
+// 7 Types : String, Number, Boolean, null, undefined, Symbol, Big Int
+
+// Refernce Type aka Non Primitive Types
+
+// Array, Objects, Functions
+
