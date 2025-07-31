@@ -27,4 +27,3 @@ console.log(str3);
 
 console.log("1" + 2 + 2); // gives 122
 console.log(1 + 2 + "2"); // gives 32
-
