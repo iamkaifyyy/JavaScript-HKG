@@ -9,3 +9,6 @@ console.log(`hello Im ${name} and my repoCount is ${repoCount}`);
 
 
 
+// new keyword
+
+const gameName = new String('kaifyyy') e 
