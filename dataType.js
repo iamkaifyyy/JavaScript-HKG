@@ -32,3 +32,22 @@ console.log(typeof stringNumber);
 
 // Array, Objects, Functions
 
+
+
+// Primitive Type uses Stack based memory
+
+let myYoutubeName = "kaifyyy";
+
+let anotherName = myYoutubeName;
+
+anotherName = "JamesBond"; 
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+
+let user = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+ 
