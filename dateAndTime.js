@@ -19,3 +19,11 @@ console.log(balance);
 console.log(balance.toString().length);
 console.log(balance.toFixed(1));
 
+
+const otherNumber = 23.896;
+
+console.log(otherNumber.toPrecision(3));
+
+
+
+const hundreds = 1000000;
