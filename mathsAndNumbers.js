@@ -29,3 +29,11 @@ console.log(otherNumber.toPrecision(3));
 const hundreds = 1000000;
 
 console.log(hundreds.toLocaleString('en-IN'));
+
+
+
+
+// ***************** maths *************
+
+console.log("Maths Class")
+console.log(Math.random()*10);
