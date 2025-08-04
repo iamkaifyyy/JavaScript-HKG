@@ -29,3 +29,10 @@ console.log(myArr.includes(69));
 
 
 
+const newArr = myArr.join()
+
+console.log(myArr);
+console.log(typeof newArr);
+
+const my1 = myArr.slice(1, 3);
+console.log(my1);
