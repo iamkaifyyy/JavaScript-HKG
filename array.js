@@ -26,3 +26,6 @@ console.log(myArr);
 // another some methods
 
 console.log(myArr.includes(69));
+
+
+
