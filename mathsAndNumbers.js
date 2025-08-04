@@ -37,3 +37,4 @@ console.log(hundreds.toLocaleString('en-IN'));
 
 console.log("Maths Class")
 console.log(Math.random()*10);
+console.log(Math.random() *10 + 1);
