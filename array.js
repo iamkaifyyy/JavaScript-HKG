@@ -17,4 +17,12 @@ console.log(`array is ${myArr2}`);
 
 myArr.push(6, 2);
 console.log(myArr);
+ 
+console.log(myArr);
+myArr.pop();
+console.log(myArr);
 
+
+// another some methods
+
+console.log(myArr.includes(69));
