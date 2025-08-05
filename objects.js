@@ -40,5 +40,15 @@ console.log(typeof [mySym]);
     console.log("hello jsuser boobs");
  }
 
+ jsuser.greetingTwo= function(){
+    console.log(`hello jsuser ,${this.name}`);
+ }
+
 
  console.log(jsuser.greeting());
+  console.log(jsuser.greetingTwo());
+
+
+
+// Objects Part 2
+
