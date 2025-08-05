@@ -11,3 +11,5 @@ file Included here:
 5- operations.js
 6- strings.js
 7- array.js
+8- objects.js
+9- 
