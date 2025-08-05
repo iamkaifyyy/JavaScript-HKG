@@ -9,18 +9,21 @@ function Person(name, age, city) {
 }
 
 
-const kaif = new Person("kaifuu", 17, "lucknow");
-const john = new PE=E
-
-
-
 // singleton - we can generate the constructor objects
 
 
 
-const JsUser = {
+const jsuser = {
     name: "kaifuuu",
     age: 20,
-    city: "Lucknow"
+    city: "Lucknow",
+    email: "kaifuu@google.com",
+    isLoggedIn: false,
+    lastLoginDays: ["Monday", "Saturday"]
 }
  
+
+console.log(jsuser);
+console.log(jsuser.email);
+console.log("diff approach")
+console.log(jsuser[email])
