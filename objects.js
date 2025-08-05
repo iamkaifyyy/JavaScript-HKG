@@ -12,3 +12,15 @@ function Person(name, age, city) {
 const kaif = new Person("kaifuu", 17, "lucknow");
 const john = new PE=E
 
+
+
+// singleton - we can generate the constructor objects
+
+
+
+const JsUser = {
+    name: "kaifuuu",
+    age: 20,
+    city: "Lucknow"
+}
+ 
