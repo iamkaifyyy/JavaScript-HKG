@@ -129,3 +129,27 @@
 
 // this is for objects
 
+const course = {
+    coursename: "JS Hindi",
+    price: "999",
+    courseInstructor: "kaifuuu"
+}
+
+
+// course.courseInstructor
+
+const {courseInstructor} = course
+
+console.log(courseInstructor);
+
+
+const {price: rate} = course;
+
+console.log(rate);
+
+
+const navbar = () => {
+
+}
+
+navbar(company = "kaifyyy") 
