@@ -16,5 +16,5 @@ function addTwoNumbers(number1 , number2){
 }
 
 
-addTwoNumbers(2, a)
+addTwoNumbers(2, null)
 
