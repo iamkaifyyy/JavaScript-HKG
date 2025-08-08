@@ -20,7 +20,11 @@ function addTwoNumbers(number1 , number2){
     return result;
 }
 
-const result = addTwoNumbers(2, null)
+//const result = addTwoNumbers(2, null)
 
-console.log("result: ", result);
+//console.log("result: ", result);
 
+
+function loginUserMessage(username) {
+    
+}
