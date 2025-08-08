@@ -23,3 +23,18 @@ console.log(c);
 
 // ***********Scope Level and Mini Hoisting **********
 
+function one(){
+    const username = "kaifyyy"
+
+    function two(){
+        const website = "youtube"
+        console.log(username);
+    }
+
+    console.log(website);
+
+    two()
+
+}
+
+one() 
