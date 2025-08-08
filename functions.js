@@ -26,5 +26,31 @@ function addTwoNumbers(number1 , number2){
 
 
 function loginUserMessage(username) {
-    
+    if(username == undefined){
+        console.log("Please enter a Username");
+        return; 
+    }
+    return `${username} just logged in`
 }
+
+// console.log(loginUserMessage())  
+
+
+function calculateCartPrice(val1 , val2, ...num1){
+    return num1;
+}
+
+// console.log(calculateCartPrice(200, 400, 500, 2000));
+
+
+
+const user = {
+    username: "kaiufyyy",
+    price: 199
+}
+
+function handleObject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+handleObject(user);
