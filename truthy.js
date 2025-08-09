@@ -37,6 +37,7 @@ if (Object.keys(emptyObj).length === 0) {
 let val1;
 val1 = 5 ?? 10;
 
+val1 = null ?? 10; // nullish coalescing operator will return the right side value if the left side value is null or undefined
 
 
 console.log(val1); // 5
