@@ -41,3 +41,8 @@ val1 = null ?? 10; // nullish coalescing operator will return the right side val
 
 
 console.log(val1); // 5
+
+
+
+// ternary Operator is used to check if a value is truthy or falsy
+
