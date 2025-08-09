@@ -36,7 +36,9 @@ if(userLoggedIn || loggedInFromGoogle){
 }
 
 
-
+// ***** switch case *****
+// switch case is used to check multiple conditions
+// switch case is used to check the value of a variable or expression
 
 const month = 3;
 switch (month) {
@@ -55,5 +57,4 @@ switch (month) {
     default:
         console.log("Invalid month");
 }
-
 
