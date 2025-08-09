@@ -18,3 +18,42 @@ if(score > 100){
 }else{
     console.log("you are a noob gamer")
 }                           
+
+
+
+const userLoggedIn = true;
+const debitCard = true;
+const loggedInFromGoogle = false;
+const loggedInFromEmail = true;
+
+
+if(userLoggedIn && debitCard){
+    console.log("you can buy the prooduct!");
+}
+
+if(userLoggedIn || loggedInFromGoogle){
+    console.log("yess!");
+}
+
+
+
+
+const month = 3;
+switch (month) {
+    case 1:
+        console.log("January");
+        break;
+    case 2:
+        console.log("February");
+        break;
+    case 3:
+        console.log("March");
+        break;
+    case 4:
+        console.log("April");
+        break;
+    default:
+        console.log("Invalid month");
+}
+
+
