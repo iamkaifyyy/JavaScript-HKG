@@ -46,3 +46,7 @@ console.log(val1); // 5
 
 // ternary Operator is used to check if a value is truthy or falsy
 
+const iceTeaPrice = 100;
+
+iceTeaPrice >= 100 ? console.log("less than 100") : console.log("greater than 100");
+
