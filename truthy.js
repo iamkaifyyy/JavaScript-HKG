@@ -29,3 +29,14 @@ if (Object.keys(emptyObj).length === 0) {
 
     console.log("Object is completely empty");
 }
+
+
+
+// nullish Coalescing operator (??) is used to check if a value is null or undefined
+
+let val1;
+val1 = 5 ?? 10;
+
+
+
+console.log(val1); // 5
