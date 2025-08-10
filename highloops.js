@@ -40,3 +40,8 @@ for (const [key,value] of map){
 
 const coding = ["js", "ruby", "python","java", "cpp"];
 
+coding.forEach(function (item){}) 
+
+// coding.forEach(item => {})
+
+    
