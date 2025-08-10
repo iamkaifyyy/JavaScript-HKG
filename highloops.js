@@ -28,3 +28,15 @@ map.set('US', 'United States');
 map.set('UK', 'United Kingdom');    
 
 console.log(map);
+
+
+for (const [key,value] of map){
+    console.log(key);
+}
+
+
+// for each loop 
+
+
+const coding = ["js", "ruby", "python","java", "cpp"];
+
