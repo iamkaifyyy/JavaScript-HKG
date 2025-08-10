@@ -38,3 +38,49 @@ for (let index = 1; index <= 20; index++) {
 
 
 // continue - skip one time statement
+
+
+
+// while loop 
+
+let index = 0;
+while(index <= 10){
+    console.log(`value of i is ${index}`);
+    index = index + 2;
+
+}
+
+
+let myArray = ['flash','batman', 'superman']
+
+let arr = 0;
+while(arr < myArray.length) {
+    console.log(`Value of arr is ${myArray[arr]}`);
+
+    arr = arr + 1; 
+
+
+}
+
+// do while loop 
+
+let score = 1;
+
+do {
+    console.log(`Score is ${score}`);
+    score = score + 1;
+} while ( score <= 10){
+    console.log(`Score is ${score}`);
+    score = score + 1;      
+}
+
+
+
+
+// ********* high order Array Loops *******
+
+
+// forof
+
+
+let myArray = ['flash', 'batman', 'superman'];
