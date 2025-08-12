@@ -2,3 +2,14 @@ h1 {
     color: blue;
     text-decoration:dashed;
 }
+
+body {
+    background-color: lightsalmon;
+
+}
+
+button {
+    background-color: lightgreen;
+    color: black;
+    border: 2px solid black
+}
