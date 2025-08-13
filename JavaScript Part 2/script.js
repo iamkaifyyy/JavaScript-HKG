@@ -7,4 +7,8 @@
 
 
 
-let paragraphs = document.getElementsByTagName('p');
+// let paragraphs = document.getElementsByTagName('p');
+
+let div = document.querySelector("div");
+console.dir(div);
+
