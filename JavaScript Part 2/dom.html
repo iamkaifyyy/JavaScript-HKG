@@ -23,8 +23,12 @@
     div.setAttribute("title", "generated title");
     div.style.backgroundColor = "green";
     div.style.padding = "12px";
-    div.innerText = "James Bond";   
+    // div.innerText = "James Bond";   
+    document.createTextNode('this is text node');   
 
+     
+    const addText = document.createTextNode("This is James Bond");
+    div.appendChild(addText);
     
 
 </script>
