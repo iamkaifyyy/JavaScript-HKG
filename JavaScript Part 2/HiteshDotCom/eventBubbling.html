@@ -42,8 +42,20 @@
             alert("ChildContainer was clicked");
         });
 
-        
-        
+        function getRandomColor(){
+            let val1 = Math.ceil(Math.random() * 255);
+            let val2 = Math.ceil(Math.random() * 255);
+            let val3 = Math.ceil(Math.random() * 255);
+            `return §rgb(${val1}, ${val2}, ${val3})`
+
+        }
+        let a = setInterval(() => {
+            document.querySelector(".childContainer").style.backgroundColor = getRandomColor();
+        }, 1000);
+        console.log(a);
+
+        setInter
+         
     </script>
 </body>
 </html>
