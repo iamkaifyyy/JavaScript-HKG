@@ -9,6 +9,11 @@ button.addEventListener("click", ()=> {
     document.querySelector(".box").innerHTML = "<b>Yayy you were clicked!</b> Enjoy your click"; 
 });
 
+document.addEventListener("keydown", (Enjoy) =>{
+    console.log(e);
+});
+
+
 
 
 
