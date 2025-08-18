@@ -9,3 +9,9 @@ let document = document.getElementById("btn");
  });
 
 // event object. 
+
+
+// time and timestamp 
+
+// event bubbling and event capturing
+
