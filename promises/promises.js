@@ -24,3 +24,34 @@ new Promise(function(resolve, reject){
 }).then(function(){
     console.log("async 2 resolved!")
 })
+
+
+
+const promiseThree = new Promise(function(resolve, reject){
+    setTimeout(function(){
+        resolve({username: "jamesbond", email: "kaif@jamesbond.com"});
+    }, 1000);
+});
+
+promiseThree.then(function(user){
+    console.log(user);
+});
+
+
+
+const promiseFour = new Promise(function(resolve, reject){
+    setTimeout(function(){
+        let error = true;
+        if(!error){
+            resolve({username: "kaifyy", password: "123"});
+        } else {
+            reject('ERROR! something went wrong');
+        }
+    }, 1000);
+})
+
+// callback hell 
+
+promiseFour.then((user) => {
+    
+})
