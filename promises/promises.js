@@ -52,6 +52,48 @@ const promiseFour = new Promise(function(resolve, reject){
 
 // callback hell 
 
-promiseFour.then((user) => {
-    
-})
+const username = promiseFour.then((user) => {
+    console.log(user);
+    return user.username;
+}).then((username) => {
+    console.log(username);
+}).catch(function(error){
+    console.log(error);
+}).finally(() => {
+    console.log("Final! the promise is either solved or rejected!");
+});
+
+
+
+// promise - 5 
+
+const promiseFive = new Promise(function(resolve, reject){
+    setTimeout(function(){
+        let error = true;
+        if(!error){
+            resolve({username : "javascript", password: "123"});
+        } else {
+            reject('error! JS went wrong');
+        }
+    }, 1000);
+});
+
+
+async function consumePromiseFive() {
+    // const response = await promiseFive;
+    // console.log(response);
+
+    try {
+        const response = await promiseFive;
+    } catch (error) {
+        console.log(error);
+    }
+};
+
+consumePromiseFive();
+
+/// JSON - API request
+
+async function getAllUsers(){
+    const response = await fetch 
+}
