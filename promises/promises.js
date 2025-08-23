@@ -95,5 +95,5 @@ consumePromiseFive();
 /// JSON - API request
 
 async function getAllUsers(){
-    const response = await fetch 
+    const response = await fetch('https://api.github.com/users/iamkaifyyy'); 
 }
