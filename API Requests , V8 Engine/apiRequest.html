@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api request</title>
+</head>
+<body>
+    api request
+    
+
+
+    <script>
+        const requestUrl = 'https://api.github.com/users/iamkaifyyy'
+        const xhr = new XMLHttpRequest();
+
+        xhr.open('GET', requestUrl);
+        xhr.onreadystatechange = function(){
+            console.log(xhr.readyState);
+            if(xhr.readyState === 4){
+                console.log(responseText);
+            }
+        }
+        xhr.send();
+    </script>
+</body>
+</html>
